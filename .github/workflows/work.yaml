@@ -44,3 +44,9 @@ jobs:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
                 PUSH_KEY: ${{ secrets.PUSH_KEY }}
+                MAIL_ENABLE: ${{ secrets.MAIL_ENABLE }}
+                MAIL_HOST: ${{ secrets.MAIL_HOST }}
+                MAIL_PORT: ${{ secrets.MAIL_PORT }}
+                MAIL_FROM: ${{ secrets.MAIL_FROM }}
+                MAIL_PWD: ${{ secrets.MAIL_PWD }}
+                MAIL_TO: ${{ secrets.MAIL_TO }}
